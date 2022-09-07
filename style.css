@@ -3,7 +3,7 @@
 }
 html, body {
 	min-height: 100%;
-	background: #fff;
+	background: rgb(129, 129, 189);
 	color: #000;
 }
 	/* sets the body height of the browser, so that backgrounds and div heights work correctly. Color and background will almost certainly be altered; they are just placeholders */
@@ -96,4 +96,63 @@ input[type="email"]:invalid {
 sub, sup { 
 	line-height: 0;
 }
-    /* sets superscript and subscript text so that it doesn't throw off leading for elements in which they are included */
+    /* sets superscript and subscript text so that it doesn't 
+	throw off leading for elements in which they are included */
+
+#page-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.favorite-section {
+	padding:15px;
+	border:black 5px solid;
+	margin:20x; 
+}
+
+.section-header {
+	padding: 40px;
+	text-align: center;
+	margin:15px;
+	font-size:30px;
+}
+#favorite-music-name {
+	background-color: cyan;
+	font-weight: bold;
+}	
+
+#most-favorite-food {
+	list-style: square;
+}
+
+.favorite-image {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	max-width: 100%;
+	height: auto;
+}
+
+#favorite-books {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  #favorite-books td, #favorite-books th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  #favorite-books tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #favorite-books tr:hover {background-color: #ddd;}
+  
+  #favorite-books th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+  }
